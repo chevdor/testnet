@@ -5,6 +5,12 @@ This is the code used for the testnet for the [æternity](https://aeternity.com)
 
 This testnet uses simple PoW consensus. Its purpose is to show how state-channels work.
 
+### Using Docker
+
+```
+docker run -it chevdor/aeternity
+```
+
 ### Compiling and Runing
 You will need Erlang version 18 or higher, and a couple of libraries. Please follow instructions:
 [For Ubuntu](docs/compile_ubuntu.md)
