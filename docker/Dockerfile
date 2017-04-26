@@ -8,7 +8,5 @@ RUN apt-get update && \
 	cd testnet && \
 	sh install.sh
 
-EXPOSE 8040, 8041
-
 WORKDIR /testnet
 CMD ["/bin/sh", "start.sh"]
